@@ -10,8 +10,8 @@ export default function Footer() {
   }, []);
 
   return (
-    <footer className="bg-stone-900 h-20 flex items-center justify-center">
-      <p className="text-stone-500 font-light text-sm tracking-widest">
+    <footer className="bg-stone-900 h-16 md:h-20 flex items-center justify-center px-4">
+      <p className="text-stone-500 font-light text-xs md:text-sm tracking-widest text-center">
         &copy; {currentYear} Architecture Portfolio
       </p>
     </footer>
