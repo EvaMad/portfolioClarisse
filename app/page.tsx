@@ -153,27 +153,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      {/* CTA Section - Elegant */}
-      <section className="py-40 px-6 bg-white relative overflow-hidden">
-        <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-br from-amber-50 to-transparent rounded-full blur-3xl -z-10"></div>
-        
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-6xl font-bold text-stone-900 mt-8 mb-8">
-            Parlons de votre projet
-          </h2>
-          <p className="text-lg text-stone-600 mb-12 leading-relaxed font-light">
-            Je suis passionné par la création d'espaces qui transforment les vies et enrichissent les communautés. 
-            Découvrez comment nous pouvons collaborer.
-          </p>
-          <Link
-            href="/contact"
-            className="inline-block px-12 py-5 bg-stone-900 hover:bg-stone-800 text-white font-light tracking-widest uppercase text-sm transition-all duration-300"
-          >
-            Démarrer une conversation
-          </Link>
-        </div>
-      </section>
     </div>
   );
 }
